@@ -1,0 +1,21 @@
+.App {
+ text-align: center;
+ background-color:rgb(93, 0, 255);
+  min-height: 100vh;
+  color: white;
+  padding: 16px;
+ }
+.App2{
+  background-color: aqua;
+  .pre{
+    color: yellowgreen;
+  }
+
+}
+.App3{
+  background-color: yellow;
+  padding: 16px
+}
+.App.highlight{
+  background-color: orange;
+} 

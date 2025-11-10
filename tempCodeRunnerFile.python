@@ -1,0 +1,15 @@
+
+num1 = input('enter 1st number')
+num2 = input('enter 2nd number')
+opr = input('enter an operator')
+
+if opr == '+':
+    print(num1+num2)
+elif opr == '-':
+    print(num1-num2)
+elif opr == '*':
+    print(num1*num2)
+elif opr == '/' and num1 != 0 :
+    print(num1//num2)
+else :
+    print('invalid operator')     
