@@ -50,5 +50,5 @@ else if (dayNumber > 31)
 
 
  else {
-  alert("Invalid input! Please enter a number between 1 and 7.");
+  alert("Invalid input! Please enter a number between 1 and 7");
 }
