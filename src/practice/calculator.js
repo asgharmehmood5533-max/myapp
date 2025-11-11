@@ -45,7 +45,7 @@ else if (dayNumber > 28 && dayNumber === 31)
      }
 else if (dayNumber > 31)
      {
-  alert("That day is not in this month");
+  alert("That day is not month");
      }
 
 
