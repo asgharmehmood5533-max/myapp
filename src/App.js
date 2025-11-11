@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-function App(){
-  return(
-    <div className='App'>
-      <div>
-        <pre><h1>hello world       hello world      hello world</h1></pre>
-       <br>
-       </br>
-
-      
-      </div>
-      <div className='App2'>
-        <pre><h1>hello world       hello world      hello world</h1></pre>
-      </div>
-       <br>
-       </br> 
-      <div className='App3'>
-       <pre><h1>hello world          hello world     hello world</h1></pre>
-      </div>
+import React from "react";
+import MyComponent from "./practice/practice_default";  
+import { Named_Component,Another_Named_Component } from "./practice/practice-name ";
+import Default_Component from "./practice/practice_default";
+function App() {
+  return (
+    <div>
+      <Default_Component/>
+      <Named_Component />
+      <Another_Named_Component />
     </div>
   );
+
 }
 
 export default App;
